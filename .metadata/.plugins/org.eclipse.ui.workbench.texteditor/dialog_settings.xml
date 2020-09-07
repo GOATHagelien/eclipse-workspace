@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="float"/>
+		<list key="findhistory">
+			<item value="long"/>
+			<item value="Long"/>
+			<item value="double"/>
+			<item value="Double"/>
+			<item value="short"/>
+			<item value="Short"/>
+			<item value="short myMinShortValue = Short.MIN_VALUE;"/>
+			<item value="Byte"/>
+			<item value="byte"/>
+			<item value="byte myMinByteValue = Byte.MIN_VALUE;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="float"/>
+			<item value="Float"/>
+			<item value="long"/>
+			<item value="Long"/>
+			<item value="char"/>
+			<item value="Char"/>
+			<item value="boolean"/>
+			<item value="Boolean"/>
+			<item value="double"/>
+			<item value="Double"/>
+			<item value="Short"/>
+			<item value="Byte"/>
+			<item value="short"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="525"/>
+		<item key="DIALOG_Y_ORIGIN" value="207"/>
+		<item key="DIALOG_WIDTH" value="290"/>
+		<item key="DIALOG_HEIGHT" value="409"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

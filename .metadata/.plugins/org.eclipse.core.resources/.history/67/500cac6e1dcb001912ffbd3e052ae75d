@@ -1,0 +1,73 @@
+package no.hvl.dat100;
+
+// kommentere kommando er command 7
+
+import static javax.swing.JOptionPane.showInputDialog;
+
+import javax.swing.JOptionPane;
+
+public class Oppgave5 {
+
+
+		public static void main(String[] args) {
+			
+			for (int i = 1; i <= 10; i++) {
+			
+			int Poengsum = -1;
+			
+			do {
+			String x = showInputDialog("Poengsum for student " + i);
+			
+			Poengsum = Integer.parseInt(x);
+			
+			}while (Poengsum < 0 || Poengsum > 100);
+			
+			String Karakter = "";
+			
+			
+			if (Poengsum >= 0 && Poengsum <= 39) {
+				Karakter = "F";
+			}
+				
+			if (Poengsum >= 40 && Poengsum <= 49) {
+				Karakter = "E"; 
+			}
+			
+			if (Poengsum >= 50 && Poengsum <= 59) {
+				Karakter = "D";
+			}
+					
+			if (Poengsum >= 60 && Poengsum <= 79) {
+				Karakter = "C";
+			}
+			
+			if (Poengsum >= 80 && Poengsum <= 89) {
+				Karakter = "B";
+			}
+			
+			if (Poengsum >= 90 && Poengsum <= 100) {
+				Karakter = "A";
+			}
+			
+			
+			
+			if (Karakter != "") {
+				JOptionPane.showMessageDialog(null, "Karakteren er " + Karakter);
+				
+				}
+			
+			
+			if (Poengsum > 100) {
+				JOptionPane.showMessageDialog(null, "Ugyldig poengsum");
+			}
+			
+			if (Poengsum < 0) {
+				JOptionPane.showMessageDialog(null, "Ugyldig poengsum");
+			}
+				
+			
+			}
+			
+		}
+
+}

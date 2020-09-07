@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;jplab12-startkode&apos;" deleteContents="false" description="Delete resource &apos;jplab12-startkode&apos;" element1="/jplab12-startkode" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1574335876989"/>
+</session>
